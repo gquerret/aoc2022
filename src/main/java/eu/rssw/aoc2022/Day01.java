@@ -19,6 +19,7 @@ public class Day01 {
     LOGGER.info("Start...");
     var main = new Day01();
     main.loadFile("src/main/resources/input01.txt");
+    LOGGER.info("Data available...");
     main.part1();
     main.part2();
     LOGGER.info("End...");
